@@ -1,0 +1,213 @@
+body {
+    background-color: hsl(221, 100%, 96%);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    /* Reset body margin */
+}
+
+.container {
+    height: 450px;
+    width: 650px;
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    /* Adjust this margin as needed */
+}
+
+#first {
+    border-radius: 30px;
+    background: linear-gradient(0deg, rgba(46, 43, 233, 1) 50%, rgba(120, 87, 255, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    width: 500px;
+}
+
+#first p {
+    margin-top: 10px;
+    /* Adjust top and bottom margins */
+    font-family: 'HankenGrotes-Medium', sans-serif;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    margin: 10px 0;
+    /* Adjust top and bottom margins */
+    margin: 10px 0 0 0;
+    font-family: 'HankenGrotes-ExtraBold', sans-serif;
+}
+
+.result {
+    background: HSLA(256, 72%, 46%, 1);
+    background: linear-gradient(0deg, rgba(46, 43, 233, 1) 50%, rgba(36, 33, 202, 1) 100%);
+    border-radius: 100px;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    /* Add margin to control spacing around result */
+}
+
+.result p {
+    font-size: 15px;
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'HankenGrotes-Medium', sans-serif;
+    margin: 10px 0;
+    /* Adjust top and bottom margins */
+}
+
+#define {
+    display: flex;
+    padding: 0;
+    margin: 60px auto;
+    /* Center the define section */
+}
+
+#second {
+    background-color: white;
+    font-family: 'HankenGrotes-Bold', sans-serif;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+
+#second p {
+    color: hsl(0, 0%, 0%);
+    margin: 15px;
+    margin-left: 15px;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#one {
+    display: flex;
+    flex-direction: row;
+    background-color: hwb(0 90% 1%);
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+span {
+    font-weight: 700;
+}
+
+#bolt {
+    color: hsl(0, 100%, 67%);
+}
+
+.fa-solid {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.total {
+    color: rgb(173, 172, 172);
+}
+
+#two {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(39, 100%, 86%);
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+#three {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(165, 62%, 94%);
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+#four {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(234, 78%, 93%);
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+#brain {
+    color: hsl(39, 100%, 50%);
+}
+
+#comment {
+    color: hsl(166, 100%, 37%);
+}
+
+#eye {
+    color: hsl(234, 85%, 45%);
+}
+
+#one p:first-of-type {
+    color: hsl(0, 100%, 67%);
+    font-weight: bold;
+}
+
+#two p:first-of-type {
+    color: hsl(39, 100%, 50%);
+    font-weight: bold;
+}
+
+#three p:first-of-type {
+    color: hsl(165, 62%, 37%);
+    font-weight: bold;
+}
+
+#four p:first-of-type {
+    color: hsl(234, 78%, 45%);
+    font-weight: bold;
+}
+
+#continue {
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 30px;
+    border: none;
+    padding: 15px 105px 15px 110px;
+    color: white;
+    margin: 15px;
+    font-family: 'HankenGrotes-Medium', sans-serif;
+}
+
+#continue:hover {
+    background: linear-gradient(0deg, rgba(78, 33, 202, 1) 48%, rgba(36, 33, 202, 1) 100%);
+    cursor: pointer;
+}
+
+#Summary {
+    color: hsl(0, 0%, 0%);
+    font-weight: 700;
+    font-family: 'HankenGrotes-Medium', sans-serif;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.light {
+    color: rgba(240, 248, 255, 0.804);
+}
