@@ -61,4 +61,4 @@ Improve accessibility with better ARIA attributes and keyboard support
 
 ## Author
 
-- Frontend Mentor - [@sars-yahys28](https://www.frontendmentor.io/profile/sara-yahya28)
+- Frontend Mentor - [@sara-yahya28](https://www.frontendmentor.io/profile/sara-yahya28)
